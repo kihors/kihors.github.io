@@ -1,0 +1,45 @@
+/* fibo.css */
+body {
+	font-family: Verdana, Tahoma;
+	font-size: 16px;
+}
+
+#main {
+	width: 480px;
+	margin: 0 auto;
+}
+
+.row {
+	
+}
+
+.cell {
+	border: 1px solid #000;
+	display: inline-block;
+	/*text-align: center;*/
+	padding: 5px;
+	width: 40px;
+}
+.cell-even {
+	background-color: yellow;
+}
+
+.cell-odd {
+	background-color: green;
+}
+
+.cell-md {
+	background-color: yellow;
+}
+
+.cell-umd {
+	background-color: green;
+}
+
+.cell-omd {
+	background-color: magenta;
+}
+
+.cell:hover {
+	background-color: blue;
+}
