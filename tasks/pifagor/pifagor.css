@@ -15,14 +15,14 @@ body {
 }
 
 .cell {
-	border: 1px solid #000;
+	border: 1px solid green;
 	display: inline-block;
-	/*text-align: center;*/
+	text-align: center;
 	padding: 5px;
 	width: 40px;
 }
 .cell-even {
-	background-color: yellow;
+	background-color: white;
 }
 
 .cell-odd {
@@ -42,5 +42,5 @@ body {
 }
 
 .cell:hover {
-	background-color: white;
+	background-color: #663300;
 }
