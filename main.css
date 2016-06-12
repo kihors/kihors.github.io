@@ -22,24 +22,24 @@ h1 {
 }
 
 /*weather*/
-
+/*
 .weather {
 	margin-right: 800px;
 	margin-left: 105px;
-}
+}*/
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
 /* Carousel base class */
-.carousel {
+/*.carousel {
   margin-top: 40px;
   margin-right: 105px;
   margin-bottom: 60px;
   margin-left: 800px;
   height: 300px;
   
-}
+}*/
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
   z-index: 10;
