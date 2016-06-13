@@ -6,22 +6,33 @@
     		<div class="col-md-4">
 			    <!-- Weather -->
 			    <div id="weather" class="weather">
-			      <div class="panel panel-primary">
-			        <div class="panel-heading">Погода</div>
-			        <div class="panel-body">
-			          <form class="form-inline">
-			            <div class="form-group">
-			              <label for="citylist">Місто</label>
-			              <select id="citylist">
-			                <option>Ivano-Frankivsk</option>
-			                <option>Lviv</option>
-			                <option>Kyiv</option>
-			              </select>
-			            </div>
-			          </form>
-			        </div>
-			      </div>
-			    </div>
+                  <div class="panel panel-primary">
+                    <div class="panel-heading">Погода</div>
+                    <div class="panel-body">
+                      <form class="form-inline">
+                        <div class="form-group">
+                          <label>Місто</label>
+                          <select id="cityid">
+                            <option value="707471">Івано-Франківськ</option>
+                            <option value="702550">Львів</option>
+                            <option value="696050">Київ</option>
+                            <option value="706483">Харків</option>
+                          </select>
+                          <div class= "weather" id="contentWeather">
+                                <h4><b>Температура повітря</b></h4>
+                          </div>
+                            <script type="text/javascript">
+                                var content = document.getElementById("contentWeather");
+                                var cities = document.getElementById("cityid");
+                                cities.addEventListener ("change", function(){
+                                    request(cities.value);
+                               }, false);   
+                            </script>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
 		    </div>
 		    <!-- /Weather -->
 		    <div class="col-md-4">
