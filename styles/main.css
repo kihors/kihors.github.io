@@ -39,11 +39,11 @@ footer #footer-above{
   margin:0 auto; 
 }
 #banner{
-  background-color:#722872 !important;
+  background-color:#104e05 !important;
   height:80px;
   -webkit-box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.2);
           box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.2);
-  border-color:#592059;
+  border-color:#104e05;
 }
 #banner .container{
     width:95%;
