@@ -2,8 +2,8 @@
 body{
   margin:0;
   padding:0;
-  color:#666;
-  background:#888;
+  color:#104e05;
+  background:#fff;
   font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size:20px;
 }
@@ -308,7 +308,7 @@ footer h3{
   bottom:2%;right:2%;
 }
 .scroll-top a{
-    background:#722872;  
+    background:#104e05;  
   }
 .scroll-top a:hover, .scroll-top a:focus{
       color:#104e05;
