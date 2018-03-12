@@ -14,10 +14,10 @@ h2,h3{
   text-transform:uppercase;
 }
 a{
-  color:#722872;
+  color:#104e05;
 }
 a:hover,a:focus{
-    color:#592059;
+    color:#104e05;
   }
 #banner .container, 
 main header, 
@@ -64,7 +64,7 @@ footer #footer-above{
   }
 nav{
   font-size:13px;
-  background:#722872;
+  background:#104e05;
   -webkit-transition:all .3s;
   transition:all .3s;
 }
@@ -76,8 +76,8 @@ nav{
     width:120%
 }
     nav .active a{
-      color:#722872;
-      background:#bbb;
+      color:#104e05;
+      background:#fff;
       -webkit-box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.1);
               box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.1);
     }
@@ -96,8 +96,8 @@ nav{
       padding:10px 20px;
     }
 .nav>li a:hover{
-        color:#722872;
-        background:#bbb;
+        color:#104e05;
+        background:#fff;
         -webkit-box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.1);
                 box-shadow:0px 2px 2px 1px rgba(0, 0, 0, 0.1);
       }
@@ -280,7 +280,7 @@ footer h3{
     -webkit-box-shadow:0px 0px 1px 1px rgba(0, 0, 0, 0.2);
             box-shadow:0px 0px 1px 1px rgba(0, 0, 0, 0.2);
     padding:25px 0;
-    background-color:#722872;
+    background-color:#104e05;
     text-align:center;
   }
 .button{
@@ -298,7 +298,7 @@ footer h3{
 }
 .button:hover{
     border:solid 2px #fff;
-    color:#722872;
+    color:#104e05;
     background:#fff;
   }
 .scroll-top{
@@ -311,9 +311,9 @@ footer h3{
     background:#722872;  
   }
 .scroll-top a:hover, .scroll-top a:focus{
-      color:#722872;
-      background-color:#bbb;
-      border-color:#722872;
+      color:#104e05;
+      background-color:#fff;
+      border-color:#104e05;
     }
 @media(min-width:768px){
 .scroll-top a{
